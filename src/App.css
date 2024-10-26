@@ -1,6 +1,24 @@
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+
 .BgImg {
-    background-image: url('./components/assets/MG.png');
+    background-image: url(./components/assets/BG.png);
     background-size: cover;
-    height: 84vh;
+    height: 100vh;
+}
+
+.MG-2 {
+    background-image: url(./components/assets/BG-2.png);
+    background-size: cover;
+    height: 55vh;
     background-repeat: no-repeat;
+}
+
+.img-fix {
+    top: 2%;
+}
+
+.text-fix {
+    bottom: 4%;
 }
