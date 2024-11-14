@@ -13,7 +13,10 @@ const HeroSection = () => {
       <div className='BgImg mt-5'>
         <div className='container justify-content-center d-flex pt-5 mt-5'>
           <div className='mt-5 justify-content-center pt-4'>
-            <span className='fs-6 fw-semibold text-warning'>A Hiking Guide</span>
+          <div className='d-flex'>
+              <Icon className='mx-2 mt-1  text-warning' icon="vaadin:line-h" />
+                <span className="text-uppercase fw-bolder text-warning">A HIKING GUIDE</span>
+            </div>
             <h1 className='fs-1 text-white fw-bolder mt-3'>
               Be Prepared For The <br /> Mountains And Beyond!
             </h1>
@@ -32,7 +35,10 @@ const HeroSection = () => {
             <div className="col-lg-6 col-md-12 col-sm-12 position-relative d-flex flex-column justify-content-center align-items-start">
               <img src={One} className="img-fluid img-fix position-relative w-25" alt="" />
               <div className="position-relative text-fix ms-5 d-flex flex-column justify-content-center align-items-start">
+              <div className='d-flex'>
+              <Icon className='mx-2 mt-1  text-warning' icon="vaadin:line-h" />
                 <span className="text-uppercase fw-bolder text-warning">GET STARTED</span>
+            </div>
                 <h1 className="mt-2 text-white">
                   What level of hiker <br /> are you?
                 </h1>
@@ -63,7 +69,10 @@ const HeroSection = () => {
             <div className="col-lg-6 col-md-12 col-sm-12 d-flex flex-column justify-content-center align-items-start">
               <img src={Two} className="img-fluid img-fix position-relative w-25" alt="" />
               <div className="position-relative text-fix ms-5 d-flex text-fix flex-column justify-content-center align-items-start">
-                <span className="text-uppercase fw-bolder text-warning">Hiking Essential</span>
+            <div className='d-flex'>
+              <Icon className='mx-2 mt-1  text-warning' icon="vaadin:line-h" />
+                <span className="text-uppercase fw-bolder text-warning">HIKING ESSENTIAL</span>
+            </div>
                 <h1 className="fs-2 mt-3 text-white">
                   Picking the right Hiking Gear!
                 </h1>
@@ -85,7 +94,10 @@ const HeroSection = () => {
             <div className="col-lg-6 col-md-12 col-sm-12 my-3 position-relative d-flex flex-column justify-content-center align-items-start">
               <img src={Three} className="img-fluid w-25 img-fix position-relative" alt="" />
               <div className='position-relative text-fix ms-5 d-flex flex-column justify-content-center align-items-start'>
-                <span className="text-uppercase fw-bolder text-warning">When you go is the Key</span>
+              <div className='d-flex'>
+              <Icon className='mx-2 mt-1  text-warning' icon="vaadin:line-h" />
+                <span className="text-uppercase fw-bolder text-warning">WHERE YOU GO IS THE KEY</span>
+            </div>
                 <h1 className="fs-2 mt-3 text-white">
                   Understand Your Map & Timing
                 </h1>
